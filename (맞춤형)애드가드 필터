@@ -1,7 +1,6 @@
-! Title: 애드가드 갤러리 필터
-! Version: 2025.08.19.2
+! Title: (맞춤형)애드가드 필터_scarlet0113
+! Version: 2025.08.20
 ! Description: Adguard/uBo/Brave 필터의 오차단 및 남은 광고와 안티 애드블록을 해결합니다.
-! Homepage: https://gallog.dcinside.com/cent8649
 
 ! ~275
 
@@ -271,7 +270,11 @@ web.joongna.com#@#a[rel*="sponsored"]
 cafe.naver.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 naver.com,~chzzk.naver.com##+js(aeld, /contextmenu|selectstart|dragstart/)
 
-! 뉴토끼 배너
+! 뉴토끼 배너 영역
 ||newtoki[0-9]{1,4}.com##.board-tail-banner
 ||newtoki[0-9]{1,4}.com##[style="margin-bottom: 20px;"].row.row-15
 ||newtoki[0-9]{1,4}.com##li:has([target]:not([href*=bbs]))
+
+! 애니라이프 배너 영역
+anilife.app##.HkbznHK
+anilife.live##.FlexFSCW.MainBnnWrap
