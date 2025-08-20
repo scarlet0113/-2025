@@ -270,11 +270,17 @@ web.joongna.com#@#a[rel*="sponsored"]
 cafe.naver.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 naver.com,~chzzk.naver.com##+js(aeld, /contextmenu|selectstart|dragstart/)
 
-! 뉴토끼 배너 및 공백 일괄 제거 (테스트)
-||newtoki[0-9]{1,4}.com##.board-tail-banner:style(display:none !important;)
-||newtoki[0-9]{1,4}.com##[style="margin-bottom: 20px;"].row.row-15:style(display:none !important;)
-||newtoki[0-9]{1,4}.com##li:has([target]:not([href*=bbs])):style(display:none !important;)
-
 ! 애니라이프 배너 영역
 anilife.app##.HkbznHK
 anilife.live##.FlexFSCW.MainBnnWrap
+
+!! 테스트
+! 뉴토끼 배너 및 공백 포함 완전 제거 최종본 (배너 + 부모 요소 차단)
+||newtoki[0-9]{0,4}.com##.board-tail-banner:upward(2):style(display:none !important;)
+||newtoki[0-9]{0,4}.com##[style="margin-bottom: 20px;"].row.row-15:upward(2):style(display:none !important;)
+||newtoki[0-9]{0,4}.com##li:has([target]:not([href*=bbs])):upward(3):style(display:none !important;)
+
+! 추가 부모 요소가 있을 경우 대비한 보조 규칙
+||newtoki[0-9]{0,4}.com##div:has(.board-tail-banner):style(display:none !important;)
+||newtoki[0-9]{0,4}.com##div:has([style="margin-bottom: 20px;"]):style(display:none !important;)
+
