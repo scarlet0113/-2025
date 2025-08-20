@@ -2,8 +2,6 @@
 ! Version: 2025.08.20
 ! Description: scarlet0113
 
-! ~275
-
 ! NAVER 앱 검색페이지 깨짐 복원 - 갤러리 DNS 필터 추가 필요
 ! https://raw.githubusercontent.com/Zziniswell/Adguard-gallery-filter/refs/heads/main/DNS.txt
 @@||ad-creative.pstatic.net^$app=com.nhn.android.search
