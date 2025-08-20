@@ -1,4 +1,4 @@
-! 뉴토끼 배너
+! 뉴토끼 배너 영역
 ||newtoki[0-9]{1,4}.com##.board-tail-banner
 ||newtoki[0-9]{1,4}.com##[style="margin-bottom: 20px;"].row.row-15
 ||newtoki[0-9]{1,4}.com##li:has([target]:not([href*=bbs]))
