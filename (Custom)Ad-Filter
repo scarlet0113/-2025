@@ -275,12 +275,10 @@ anilife.app##.HkbznHK
 anilife.live##.FlexFSCW.MainBnnWrap
 
 !! 테스트
-! 뉴토끼 배너 및 박스 전체 제거 (로그인 박스는 보존)
-||newtoki[0-9]{1,4}.com/tokinbtoki/
-||newtoki[0-9]{1,4}.com/bbs/linkbn.php?bn_id=
+! 뉴토끼 배너 공백까지 완전 제거 (로그인 박스는 남김)
 ||newtoki[0-9]{1,4}.com##div#main-banner-view
 ||newtoki[0-9]{1,4}.com##div.board-tail-banner
-||newtoki[0-9]{1,4}.com##.row.row-15:has(div.board-tail-banner)
+
 
 
 
