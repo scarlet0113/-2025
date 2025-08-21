@@ -279,8 +279,7 @@ anilife.live##.FlexFSCW.MainBnnWrap
 ||newtoki[0-9]{0,4}.com##.board-tail-banner:upward(2):style(display:none !important;)
 ||newtoki[0-9]{0,4}.com##[style="margin-bottom: 20px;"].row.row-15:upward(2):style(display:none !important;)
 ||newtoki[0-9]{0,4}.com##li:has([target]:not([href*=bbs])):upward(3):style(display:none !important;)
-
-! 추가 부모 요소가 있을 경우 대비한 보조 규칙
-||newtoki[0-9]{0,4}.com##div:has(.board-tail-banner):style(display:none !important;)
-||newtoki[0-9]{0,4}.com##div:has([style="margin-bottom: 20px;"]):style(display:none !important;)
+! 테스트2
+||newtoki[0-9]{1,4}.com##div#main-banner-view
+||newtoki[0-9]{1,4}.com##.board-tail-banner
 
