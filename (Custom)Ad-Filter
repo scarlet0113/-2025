@@ -275,10 +275,15 @@ anilife.app##.HkbznHK
 anilife.live##.FlexFSCW.MainBnnWrap
 
 !! 테스트
-! 뉴토끼 배너 공백까지 완전 제거 (로그인 박스는 남김)
-||newtoki[0-9]{1,4}.com##div#main-banner-view
-||newtoki[0-9]{1,4}.com##div.board-tail-banner
+! 추후 숫자만 변경
+! 배너 및 공백 완전 제거
+||newtoki468.com##div#main-banner-view
+||newtoki468.com##div.board-tail-banner
 
+! 뉴토끼 배너 문의 포함 영역 제거
+||newtoki468.com##div.col-15.col-md-3.col-sm-4
+
+! 로그인 박스(miso-outlogin)는 건드리지 않아 유지
 
 
 
