@@ -275,13 +275,9 @@ anilife.app##.HkbznHK
 anilife.live##.FlexFSCW.MainBnnWrap
 
 !! 테스트
-! 뉴토끼 배너 및 공백 포함 완전 제거 최종본 (배너 + 부모 요소 차단)
-||newtoki[0-9]{0,4}.com##.board-tail-banner:upward(2):style(display:none !important;)
-||newtoki[0-9]{0,4}.com##[style="margin-bottom: 20px;"].row.row-15:upward(2):style(display:none !important;)
-||newtoki[0-9]{0,4}.com##li:has([target]:not([href*=bbs])):upward(3):style(display:none !important;)
-! 테스트2
+! 뉴토끼 배너 영역 제거 최적화
 ||newtoki[0-9]{1,4}.com##div#main-banner-view
-||newtoki[0-9]{1,4}.com##.board-tail-banner
-||newtoki[0-9]{1,4}.com##.miso-outlogin
+||newtoki[0-9]{1,4}.com##div.board-tail-banner
+! 로그인 박스(miso-outlogin)는 남김
 
 
