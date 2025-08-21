@@ -282,4 +282,6 @@ anilife.live##.FlexFSCW.MainBnnWrap
 ! 테스트2
 ||newtoki[0-9]{1,4}.com##div#main-banner-view
 ||newtoki[0-9]{1,4}.com##.board-tail-banner
+||newtoki[0-9]{1,4}.com##.miso-outlogin
+
 
